@@ -1,0 +1,38 @@
+{
+  "name": "rdmcpa/wordpress-core",
+  "repositories": [
+    {
+      "name": "wordpress/wordpress",
+      "type": "package",
+      "package": {
+        "name": "wordpress/wordpress",
+        "homepage": "http://wordpress.org",
+        "license": "GPL-2.0+",
+        "authors": [
+          {
+            "name": "WordPress Community",
+            "homepage": "http://wordpress.org/about/"
+          }
+        ],
+        "support": {
+          "issues": "http://core.trac.wordpress.org/",
+          "forum": "http://wordpress.org/support/",
+          "wiki": "http://codex.wordpress.org/",
+          "irc": "irc://irc.freenode.net/wordpress",
+          "source": "http://core.trac.wordpress.org/browser"
+        },
+        "type": "package",
+        "version": "dev-master",
+        "source": {
+          "type": "vcs",
+          "url": "https://github.com/wordpress/wordpress",
+          "reference": false
+        },
+        "dist": {
+          "type": "zip",
+          "url": "http://wordpress.org/latest.zip"
+        }
+      }
+    }
+  ]
+}
