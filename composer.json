@@ -30,7 +30,10 @@
         },
         "dist": {
           "type": "zip",
-          "url": "http://wordpress.org/latest.zip"
+          "url": "https://wordpress.org/latest.zip"
+        },
+        "require": {
+            "johnpbloch/wordpress-core-installer": "^1.0"
         }
       }
     }
