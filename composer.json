@@ -3,7 +3,7 @@
   "repositories": [
     {
       "name": "wordpress/wordpress",
-      "type": "package",
+      "type": "wordpress-core",
       "package": {
         "name": "wordpress/wordpress",
         "homepage": "http://wordpress.org",
